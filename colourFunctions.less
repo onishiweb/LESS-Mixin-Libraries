@@ -1,0 +1,18 @@
+
+.complementaryColours(@colour)
+{
+	@base: @colour;
+	@complement1: spin(@base, 180);
+	@complement2: darken(spin(@base, 180), 5%);
+	@lighten1: lighten(@base, 15%);
+	@lighten2: lighten(@base, 30%);	
+}
+
+.subtleColours(@colour)
+{
+	@base: @colour;
+	@lighter1: lighten(spin(@base, 5), 10%);
+	@lighter2: lighten(spin(@base, 10), 20%);
+	@darker1: darken(spin(@base, -5), 10%);
+	@darker2: darken(spin(@base, -10), 20%);
+}
