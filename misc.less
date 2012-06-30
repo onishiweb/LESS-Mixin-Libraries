@@ -1,0 +1,39 @@
+.up-arrow( @color: #fff, @size: 5px ) {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: @size solid transparent;
+	border-right: @size solid transparent;
+
+	border-bottom: @size solid @color;
+}
+
+.down-arrow( @color: #fff, @size: 5px ) {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: @size solid transparent;
+	border-right: @size solid transparent;
+
+	border-top: @size solid @color;
+}
+
+.left-arrow( @color: #fff, @size: 5px ) {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: @size solid transparent;
+	border-bottom: @size solid transparent;
+
+	border-right: @size solid @color;
+}
+
+.right-arrow( @color: #fff, @size: 5px ) {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: @size solid transparent;
+	border-bottom: @size solid transparent;
+
+	border-left: @size solid @color;
+}
